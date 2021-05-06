@@ -1,0 +1,466 @@
+img {
+  max-width:100%;
+}
+
+main img{
+  
+}
+
+body {
+  font-family: Verdana Bold;
+  color: #ffffff;
+  background: #0e5073;
+  margin:0;
+  padding:0;
+}
+
+p {
+  font-size:1.25em;
+  margin:0;
+}
+
+h1 {
+  font-size:5vw;
+  font-family:Impact;
+}
+
+header {
+  grid-area:header;
+  background:#bf212e;
+  padding:0px;
+  text-align:center;
+}
+
+header h1 {
+  padding:0px 0px 0px 0px;
+  margin:0;
+}
+
+header h3 {
+  padding:0px 0px 0px 0px;
+}
+
+.headerpic {
+    grid-area:headerpic;
+    padding:5px;
+    height:10vmax;
+    }
+
+.headertext {
+    grid-area:headertext;
+    text-align:center;
+    }
+    
+.headerwrapper {
+    display:grid;
+    justify-items: center;
+    align-items:center;
+    grid-template-columns:25% auto;
+    grid-template-areas:
+    "headerpic headertext"
+    }
+
+nav {
+  grid-area:nav;
+  background:#7b8c88;
+  padding:0px;
+  text-align:center;
+}
+
+nav li {
+    padding:10px 15px 10px 0px;
+    list-style-type:none;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+nav a {
+    text-decoration:none;
+    color:#ffffff;
+}
+
+main a {
+    text-decoration:none;
+}
+
+nav a:hover {
+    text-shadow: 2px 2px 5px #3217ff;
+}
+
+main {
+  grid-area:main;
+  background:#4f8ca6;
+  padding:5px;
+}
+
+main a {
+  color:#ffffff;
+  font-weight:bold;
+  text-decoration:underline;
+}
+
+main h2{
+  text-align: center;
+}
+
+footer {
+  grid-area:footer;
+  background:#bf212e;
+  padding:5px;
+  text-align:center;
+}
+
+.homeA{
+  grid-area: homeA;
+  padding: 5px 5px 5px 5px;
+}
+
+.homePicB{
+  grid-area: homePicB;
+  padding: 5px 5px 5px 5px;
+}
+
+.homePicC{
+  grid-area: homePicC;
+  padding: 5px 5px 5px 5px;
+}
+
+.homePicD{
+  grid-area: homePicD;
+  padding: 5px 5px 5px 5px;
+}
+
+.homeB{
+  grid-area: homeB;
+  padding: 5px 5px 5px 5px;
+}
+
+.homeC{
+  grid-area: homeC;
+  padding: 5px 5px 5px 5px;
+}
+
+.homeD{
+  grid-area: homeD;
+  padding: 5px 5px 5px 5px;
+}
+
+.aboutB{
+  grid-area: aboutB;
+  padding: 5px 5px 5px 5px;
+}
+
+.aboutC{
+  grid-area: aboutC;
+  padding: 5px 5px 5px 5px;
+}
+
+.aboutD{
+  grid-area: aboutD;
+  padding: 5px 5px 5px 5px;
+}
+
+.aboutE{
+  grid-area: aboutE;
+  padding: 5px 5px 5px 5px;
+}
+
+.staffB{
+  grid-area: staffB;
+  padding: 5px 5px 5px 5px;
+}
+
+.staffC{
+  grid-area: staffC;
+  padding: 5px 5px 5px 5px;
+}
+
+.staffD{
+  grid-area: staffD;
+  padding: 5px 5px 5px 5px;
+}
+
+.staffE{
+  grid-area: staffE;
+  padding: 5px 5px 5px 5px;
+}
+
+.staffPicB{
+  grid-area: staffPicB;
+  padding: 5px 5px 5px 5px;
+}
+
+.staffPicC{
+  grid-area: staffPicC;
+  padding: 5px 5px 5px 5px;
+}
+
+.staffPicD{
+  grid-area: staffPicD;
+  padding: 5px 5px 5px 5px;
+}
+
+.testiB{
+  grid-area: testiB;
+  padding: 5px 5px 5px 5px;
+}
+
+.testiC{
+  grid-area: testiC;
+  padding: 20px 5px 5px 5px;
+}
+
+.testiD{
+  grid-area: testiD;
+  padding: 20px 5px 5px 5px;
+}
+
+.testiE{
+  grid-area: testiE;
+  padding: 20px 5px 5px 5px;
+}
+
+.testiF{
+  grid-area: testiF;
+  padding: 20px 5px 5px 5px;
+}
+
+.testiG{
+  grid-area: testiG;
+  padding: 20px 5px 5px 5px;
+}
+
+.fluffB{
+  grid-area: fluffB;
+  padding: 5px 5px 5px 5px;
+}
+
+.fluffC{
+  grid-area: fluffC;
+  padding: 20px 5px 5px 5px;
+}
+
+.fluffD{
+  grid-area: fluffD;
+  padding: 20px 5px 5px 5px;
+}
+
+.fluffE{
+  grid-area: fluffE;
+  padding: 20px 5px 5px 5px;
+}
+
+.fluffF{
+  grid-area: fluffF;
+  padding: 20px 5px 5px 5px;
+}
+
+.fluffG{
+  grid-area: fluffG;
+  padding: 20px 5px 5px 5px;
+}
+
+/*This stuff is for the hamburger menu*/
+.toggleNav {
+    display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
+    text-align:center;
+    font-size:1.5em;
+    font-weight:bold;
+    padding:10px;
+    }
+
+#flex-nav ul {
+    display: none; /*jQuery toggles the nav from to this class to the .open when clicked*/
+    text-align:center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+ 
+#flex-nav ul.open { /*.open is the class that gets toggled when clicked (with help from the jQuery code)*/
+    display:grid;
+    }
+    
+#flex-nav li {
+    padding-left:10px;
+    padding-top:10px;
+    }
+
+.container1 { /*for index.html*/
+  display: grid;
+  grid-template-columns:1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+}
+
+.homegrid {
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-areas:
+  "homeA"
+  "homePicB"
+  "homeB"
+  "homePicC"
+  "homeC"
+  "homePicD"
+  "homeD";
+}
+
+.aboutgrid {
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-areas:
+  "aboutB"
+  "aboutC"
+  "aboutD"
+  "aboutE";
+}
+
+.staffgrid {
+  display:grid;
+  grid-template-columns:100%;
+  grid-template-areas:
+  "staffPicB"
+  "staffB"
+  "staffPicC"
+  "staffC"
+  "staffPicD"
+  "staffD"
+  "staffE";
+}
+
+.testigrid {
+  display:grid;
+  grid-template-columns:100%;
+  grid-template-areas:
+  "testiB"
+  "testiC"
+  "testiD"
+  "testiE"
+  "testiF"
+  "testiG";
+}
+
+.fluffgrid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-areas:
+  "fluffB"
+  "fluffC"
+  "fluffD"
+  "fluffE"
+  "fluffF"
+  "fluffG";
+}
+
+/*-----------------------Tablet Media Query------------------------*/
+@media only screen and (min-width: 480px)  {
+.container1 { /*for index.html*/
+  display: grid;
+  grid-template-columns:auto 1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+}
+
+.homegrid {
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-areas:
+  "homeA"
+  "homePicB"
+  "homeB"
+  "homePicC"
+  "homeC"
+  "homePicD"
+  "homeD";
+}
+
+/* Below will change from hamburger menu to side navigation*/
+  
+.toggleNav {
+    display: none; /*Makes the hamburger icon with the word "Menu" to disappear at this screen size*/
+  }
+  
+#flex-nav ul {
+    display:grid;
+    text-align:left;
+  }
+
+#flex-nav li {
+    padding-left:10px;
+    padding-top:10px;
+  }
+}
+
+/*-----------------------Desktop Media Query------------------------*/
+@media only screen and (min-width: 960px)  {
+.container1 { /*for index.html*/
+  display: grid;
+  grid-template-columns:auto 1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+}
+
+.homegrid {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-areas:
+  "homeA homeA homeA"
+  "homePicB homePicC homePicD"
+  "homeB homeC homeD";
+}
+
+.aboutgrid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-areas:
+  "aboutB aboutB"
+  "aboutC aboutD"
+  "aboutE aboutE";
+}
+
+.staffgrid {
+  display:grid;
+  grid-template-columns:50% 1fr;
+  grid-template-areas:
+  "staffPicB staffB"
+  "staffPicC staffC"
+  "staffPicD staffD"
+  "staffE staffE";
+}
+
+.testigrid {
+  display:grid;
+  grid-template-columns:100%;
+  grid-template-areas:
+  "testiB"
+  "testiC"
+  "testiD"
+  "testiE"
+  "testiF"
+  "testiG";
+}
+
+.fluffgrid {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-areas:
+  "fluffB fluffB fluffB"
+  "fluffC fluffD fluffE"
+  "fluffF fluffF fluffF"
+  "fluffG fluffG fluffG";
+}
+}
